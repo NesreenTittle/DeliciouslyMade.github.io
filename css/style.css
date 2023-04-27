@@ -1,0 +1,111 @@
+
+w3-main { 
+	min-height: 500px;
+  margin-left:200px
+	
+}
+
+form {
+  padding: 5%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.food-image, img {
+  width: 300px;
+  height: 350px;
+  object-fit: fill;
+}
+
+.m-grid{
+  margin: 2%;
+}
+
+.is-hidden { display: none; }
+
+.w3-section {
+	padding-top: 50px;
+  margin-left:200px
+}
+
+.app > * {
+  display: none;
+}
+
+.app > *:last-child {
+  display: block;
+}
+
+.app > *:target {
+  display: block;
+  -webkit-animation: fade 300ms linear 1;
+          animation: fade 300ms linear 1;
+}
+
+.app > *:target ~ * {
+  display: none;
+}
+
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.no-border {
+  border: none;
+}
